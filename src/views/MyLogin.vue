@@ -31,7 +31,7 @@ export default {
     login() {
       axios({
         method: "post",
-        url: "/api/manage/user/login.do",
+        url: "http://admin.raz-kid.cn/api/manage/user/login.do",
         params: {
           username: this.username,
           password: this.password,
